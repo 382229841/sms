@@ -1,0 +1,266 @@
+#foot {
+    font-family: "微软雅黑", tahoma, arial, '宋体';
+    color: #999999;
+    width: 100%;
+    /*padding-left: 150px;*/
+    line-height: 40px;
+    z-index: 1000;
+}
+
+.yp-content-left{
+    height: 100%;
+    background-color: #1a2432;
+    float: left;
+    padding:0px;
+    position: fixed;
+    top: 50px;
+    overflow-y: auto;
+    bottom: 0px;
+    z-index: 998;
+    width: 150px;
+}
+
+.yp-content-right{
+    width: 100%;
+}
+
+.yp-content-right-normal{
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 160px;
+    padding-right: 10px;
+}
+
+.yp-header{
+    background-color: #466fb9;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+.yp-container-content{
+    width: 100%;
+}
+
+/*.yp-table tbody tr.even td{*/
+    /*background-color: white;*/
+/*}*/
+
+/*.yp-table tbody tr.odd td{*/
+    /*background-color: #ecf0f8;*/
+/*}*/
+
+.nav li {
+    line-height: 60px;
+}
+
+.nav-list > .active > a, .nav-list > .active > a:hover, .nav-list > .active > a:focus {
+    background-color: #5887c6;
+}
+
+.error-tips {
+    height: 45px;
+    font-size: 12px;
+    line-height: 1.8em;
+    color: #FF0000;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.account-li {
+    text-align: left;
+    line-height: 20px;
+}
+
+.yp-icon{
+    background-image: url('/static/images/admin/yp-ad-icons.png');
+    display: inline-block;
+    *zoom:1;
+}
+
+.yp-icon-avarta{
+    background-position: -0px 0px;
+    width: 48px;
+    height: 48px;
+}
+
+.yp-icon-avarta-sm{
+    background-position: -61px 0px;
+    width: 35px;
+    height: 35px;
+}
+
+.yp-icon-sms{
+    background-position: 0px -64px;
+    width: 23px;
+    height: 17px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.active .yp-icon-sms, .open .yp-icon-sms, a:hover .yp-icon-sms{
+    background-position: -1px -94px;
+}
+
+.yp-icon-setting{
+    width: 24px;
+    height: 24px;
+    background-position: -37px -64px;
+    vertical-align: middle;
+}
+
+.active .yp-icon-setting, .open .yp-icon-setting, a:hover .yp-icon-setting{
+    background-position: -38px -94px;
+}
+
+.yp-icon-edit{
+    width: 24px;
+    height: 24px;
+    background-position: -73px -64px;
+    vertical-align: middle;
+}
+
+.active .yp-icon-edit, .open .yp-icon-edit, a:hover .yp-icon-edit{
+    background-position: -73px -94px;
+}
+
+.yp-icon-invoice{
+    width: 20px;
+    height:24px;
+    background-position: -111px -64px;
+    vertical-align: middle;
+}
+
+.active .yp-icon-invoice, .open .yp-icon-invoice, a:hover .yp-icon-invoice{
+    background-position: -111px -94px;
+}
+
+
+a.yp-ad-top-dropdown{
+    background-color: #466fb9 !important;
+}
+
+.open a.yp-ad-top-dropdown, a.yp-ad-top-dropdown:hover{
+    background-color: #4a87c8 !important;
+}
+
+.yp-divider{
+    height: 1px;
+    border: 0px;
+    background-color: #3575b9;
+}
+
+.yp-dropdown-menu li a:hover{
+    color: white !important;
+    background-color: #3575b9 !important;
+}
+
+.yp-dropdown-menu li a{
+    color: white !important;
+}
+
+.nav.yp-menu > li > a{
+    color: #cad2e7 ;
+    border-left: 2px solid #1a2432;
+    padding-left: 10px;
+    border-top: 1px solid #111926;
+}
+.nav.yp-menu > li > a:focus{
+    color: #cad2e7 ;
+    border-left: 2px solid #1a2432;
+    padding: 0px;
+    border-top: 1px solid #111926;
+    background-color: #1a2432;;
+}
+
+.nav.yp-menu > li.open > a{
+    background-color: #111926;
+    color: white;
+    border-color: #1a2432;
+}
+.nav.yp-menu > li.active > a, .nav.yp-menu > li > a:hover/*, .nav.yp-menu > li > a:focus*/{
+    background-color: #111926;
+    border-left: 2px solid #06c6f9;
+    color: white;
+}
+
+.menu-title-text{
+    display: inline-block;
+    *zoom:1;
+    width: 60%;
+    text-align: left;
+    line-height: 40px;
+    vertical-align: middle;
+    font-size: 14px;
+}
+
+.smenu{
+    display: none;
+}
+
+li ul.smenu li{
+    height: 40px;
+    line-height: 40px;
+
+}
+
+li.active .smenu, li.open .smenu{
+    display: block;
+}
+
+li.active .smenu li a, li.open .smenu li a{
+    background-color: #111926;
+    border-top: 1px solid #1a2432;
+}
+
+.smenu li a{
+    font-size: 12px;
+    display: inline-block;
+    width: 100%;
+    *zoom:1;
+    line-height: 40px;
+}
+
+.yp-infomation .important{
+    color: red;
+}
+
+.yp-infomation hr{
+    margin: 0;
+    padding: 0;
+}
+
+.yp-infomation p{
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+}
+
+
+.yp-right-tool-icon{
+    background-image: url('/static/images/admin/new-right-tool.png');
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+
+.yp-right-tool-icon.phone{
+    background-position: 0 0;
+}
+
+.yp-right-tool-icon.onlinechat{
+    background-position: 0px -37px;
+}
+
+.right-tool-hover-text{
+    display: inline-block;
+    line-height: 36px;
+    font-size: 14px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #19c0ec;
+}
+
